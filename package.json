@@ -1,17 +1,22 @@
 {
-  "private": true,
   "name": "nest-sol",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/circomlibjs": "^0.1.6",
+    "turbo": "^2.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "private": true,
   "workspaces": [
     "client",
     "circuits",
     "programs",
     "agents"
   ],
-  "devDependencies": {
-    "@types/bun": "latest",
-    "turbo": "^2.3.3"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "dependencies": {
+    "circomlibjs": "^0.1.7",
+    "ffjavascript": "^0.3.1"
   }
 }

@@ -1,6 +1,10 @@
 {
   "name": "@nest-sol/circuits",
   "type": "module",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "circom_tester": "^0.0.20"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
